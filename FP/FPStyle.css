@@ -1,0 +1,109 @@
+﻿
+body
+  {
+    background-image: url('Images/Galaxy.png');
+    background-size: cover;
+  }
+.loginDiv {
+    position: relative;
+    top: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #e6ffe6;
+    border: 1px solid white;
+    min-width: 300px;
+    max-width: 300px;
+    width: 25%;
+    margin: auto;
+    display: grid;
+    font-family: Avenir
+}
+h1
+{
+    font-size:xx-large;
+    font-family:Avenir;
+    font-weight:bold;
+}
+
+div.registrationDiv {
+    position: relative;
+    top: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightgray;
+    border: 1px solid black;
+    min-width: 400px;
+    max-width: 400px;
+    width: 25%;
+    margin: auto;
+    display: none;
+    font-family: Avenir;
+}
+.forgotPasswordDiv 
+{
+    position: relative;
+    top: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:coral;
+    border: 1px solid black;
+    min-width: 400px;
+    max-width: 400px;
+    width: 25%;
+    margin: auto;
+    display: none;
+    font-family: Avenir
+
+}
+.hide 
+{
+    display: none
+
+}
+.alertShow 
+{
+    font-family: Avenir;
+    font-size: x-small;
+    color: red;
+    text-align: center;
+    padding: 10px
+
+}
+
+.center 
+{
+   border:solid; 
+   width: 30%;
+   margin:auto;
+       
+}
+
+.test 
+{
+    border: solid;
+    border-color: red;
+    width:33%;
+    margin:auto;
+}
+
+.link 
+{
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    border-color: black;
+    display: block;
+}
+
+@font-face 
+{
+    font-family: Avenir;
+    src: url(AvenirNext.tff)
+}
